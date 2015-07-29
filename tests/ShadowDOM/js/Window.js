@@ -80,5 +80,8 @@ suite('Window', function() {
     var win = wrap(window);
     assert.equal(Window, win.constructor);
   });
+});
 
+htmlSuite('Window.prototype', function() {
+  htmlTest('../html/window-prototype.html');
 });
